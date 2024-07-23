@@ -25,8 +25,8 @@
       for (var key in addressComponents) {
           if (addressComponents.hasOwnProperty(key)) {
               addressHtmlBody += '<tr>' +
-                  '<td>' + key + '</td>' +
                   '<td>' + addressComponents[key] + '</td>' +
+                  '<td>' + key + '</td>' +
                   '</tr>';
           }
       }
